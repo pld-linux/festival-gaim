@@ -23,7 +23,7 @@ Ta wtyczka czyta na g³os przychodz±ce wiadomo¶ci z gaima. U¿ywa
 festivala i jest konfigurowalna.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 %{__make} FESTIVAL_VOICES_PATH=%{datadir2}/festival/lib/voices VERSION=%{version}
