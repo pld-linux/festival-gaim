@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://elrincondetux.d2g.com/tigrux/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	198f86d015ef65b4e8b65f1ca96a1e11
 BuildRequires:	gtk+-devel
 Requires:	festival
 Requires:	gaim
