@@ -5,7 +5,7 @@ Version:	0.4.2
 Release:	1
 License:	GPL
 Group:		Applications/Communications
-Source0:	http://elrincondetux.d2g.com/tigrux/%{name}-%{version}/%{name}-%{version}.tar.gz
+Source0:	http://elrincondetux.d2g.com/tigrux/%{name}/%{name}-%{version}.tar.gz
 BuildRequires:	gtk+-devel
 Requires:	festival
 Requires:	gaim
