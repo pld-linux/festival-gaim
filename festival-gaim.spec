@@ -12,7 +12,6 @@ Requires:	gaim
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		datadir2	/usr/share
-%define		_prefix		/usr/X11R6
 
 %description
 This plugin speak your incoming messages from gaim. It uses festival
