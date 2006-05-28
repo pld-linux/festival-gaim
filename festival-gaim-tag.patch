@@ -1,0 +1,13 @@
+--- Makefile.orig	2002-06-19 05:45:54.000000000 +0200
++++ Makefile	2006-05-28 17:29:13.329993500 +0200
+@@ -9,8 +9,8 @@
+ all: festival.so
+ 
+ festival.so: festival.c
+-	$(LIBTOOL) --mode=compile $(CC) $(CFLAGS) $(PLUGIN_CFLAGS) -c $< -o tmp$@.lo
+-	$(LIBTOOL) --mode=link    $(CC) $(CFLAGS) -o libtmp$@.la -rpath $(PLUGIN_GAIM_PATH) tmp$@.lo -module -avoid-version $(PLUGIN_LIBS)
++	$(LIBTOOL) --mode=compile --tag=CC $(CC) $(CFLAGS) $(PLUGIN_CFLAGS) -c $< -o tmp$@.lo
++	$(LIBTOOL) --mode=link --tag=CC    $(CC) $(CFLAGS) -o libtmp$@.la -rpath $(PLUGIN_GAIM_PATH) tmp$@.lo -module -avoid-version $(PLUGIN_LIBS)
+ 	@rm -f tmp$@.lo tmp$@.o libtmp$@.la
+ 	@cp .libs/libtmp$@.so* $@
+ 	@rm -f .libs/libtmp$@.*
