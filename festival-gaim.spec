@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/Communications
 Source0:	http://elrincondetux.d2g.com/tigrux/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	198f86d015ef65b4e8b65f1ca96a1e11
+Patch0:		%{name}-tag.patch
 BuildRequires:	gtk+-devel
 Requires:	festival
 Requires:	gaim
@@ -24,6 +25,7 @@ festivala i jest konfigurowalna.
 
 %prep
 %setup -q
+%patch0
 
 %build
 %{__make} FESTIVAL_VOICES_PATH=%{datadir2}/festival/lib/voices VERSION=%{version}
