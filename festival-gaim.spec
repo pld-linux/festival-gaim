@@ -1,5 +1,5 @@
 Summary:	Voice plugin for gaim
-Summary(pl):	Wtyczka g≥osowa dla gaima
+Summary(pl.UTF-8):   Wtyczka g≈Çosowa dla gaima
 Name:		festival-gaim
 Version:	0.4.2
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This plugin speak your incoming messages from gaim. It uses festival
 and is configurable.
 
-%description -l pl
-Ta wtyczka czyta na g≥os przychodz±ce wiadomo∂ci z gaima. Uøywa
+%description -l pl.UTF-8
+Ta wtyczka czyta na g≈Ços przychodzƒÖce wiadomo≈õci z gaima. U≈ºywa
 festivala i jest konfigurowalna.
 
 %prep
