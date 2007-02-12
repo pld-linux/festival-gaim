@@ -1,5 +1,5 @@
 Summary:	Voice plugin for gaim
-Summary(pl.UTF-8):   Wtyczka głosowa dla gaima
+Summary(pl.UTF-8):	Wtyczka głosowa dla gaima
 Name:		festival-gaim
 Version:	0.4.2
 Release:	1
