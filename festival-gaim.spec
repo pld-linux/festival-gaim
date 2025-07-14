@@ -25,7 +25,7 @@ festivala i jest konfigurowalna.
 
 %prep
 %setup -q
-%patch0
+%patch -P0
 
 %build
 %{__make} FESTIVAL_VOICES_PATH=%{datadir2}/festival/lib/voices VERSION=%{version}
